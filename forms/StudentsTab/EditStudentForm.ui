@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditStudentForm</class>
+ <widget class="QDialog" name="EditStudentForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>340</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>340</width>
+    <height>519</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>340</width>
+    <height>519</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #F5F8FA;
+color: #14171A;
+font-family:&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="headerTitle">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 18px;
+font-weight:500;
+</string>
+     </property>
+     <property name="text">
+      <string>Edit student</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="nameWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>80</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="nameLabel">
+        <property name="styleSheet">
+         <string notr="true">padding-bottom: 6px;
+font-size:14px;</string>
+        </property>
+        <property name="text">
+         <string>Name:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="nameInput">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	padding: 6px 4px;
+	border: 1px solid #aab8c2;
+	border-radius: 2px;
+}
+QLineEdit:hover, QLineEdit:focus{
+	border: 1px solid #14171a;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="surnameWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>80</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="surnameLabel">
+        <property name="styleSheet">
+         <string notr="true">padding-bottom: 6px;
+font-size:14px;</string>
+        </property>
+        <property name="text">
+         <string>Surname:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="surnameInput">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	padding: 6px 4px;
+	border: 1px solid #aab8c2;
+	border-radius: 2px;
+}
+QLineEdit:hover, QLineEdit:focus{
+	border: 1px solid #14171a;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="parentWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>80</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="parentLabel">
+        <property name="styleSheet">
+         <string notr="true">padding-bottom: 6px;
+font-size:14px;</string>
+        </property>
+        <property name="text">
+         <string>Parent or guardian name:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="parentInput">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	padding: 6px 4px;
+	border: 1px solid #aab8c2;
+	border-radius: 2px;
+}
+QLineEdit:hover, QLineEdit:focus{
+	border: 1px solid #14171a;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="contactWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>80</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="contactLabel">
+        <property name="styleSheet">
+         <string notr="true">padding-bottom: 6px;
+font-size:14px;</string>
+        </property>
+        <property name="text">
+         <string>Contact (tel., e-mail, etc.):</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="contactInput">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	padding: 6px 4px;
+	border: 1px solid #aab8c2;
+	border-radius: 2px;
+}
+QLineEdit:hover, QLineEdit:focus{
+	border: 1px solid #14171a;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="groupWidget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>80</height>
+      </size>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QLabel" name="groupLabel">
+        <property name="styleSheet">
+         <string notr="true">padding-bottom: 6px;
+font-size:14px;</string>
+        </property>
+        <property name="text">
+         <string>Group name:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="groupCombo">
+        <property name="styleSheet">
+         <string notr="true">QComboBox{
+	padding: 6px 4px;
+	border: 1px solid #aab8c2;
+	border-radius: 2px;
+}
+QComboBox:hover, QComboBox:focus{
+	border: 1px solid #14171a;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+background: #616161;
+border-radius: 2px;
+color: #fff;
+padding: 8px 16px;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Discard|QDialogButtonBox::Save</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

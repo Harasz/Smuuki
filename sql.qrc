@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file alias="SQLTable/GroupTable.sql">models/Group/GroupTable.sql</file>
+        <file alias="SQLTable/StudentTable.sql">models/Student/StudentTable.sql</file>
+        <file alias="SQLTable/InvoiceTable.sql">models/Invoice/InvoiceTable.sql</file>
+    </qresource>
+</RCC>
